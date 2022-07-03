@@ -33,7 +33,7 @@ class _WaitingLobbyState extends State<WaitingLobby> {
     return Column(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
-        const Text('Waiting for a player to join...'),
+        const Text('Esperando jogador...'),
         const SizedBox(height: 20),
         CustomTextField(
           controller: roomIdController,

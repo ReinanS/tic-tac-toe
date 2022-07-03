@@ -50,20 +50,20 @@ class _CreateRoomScreenState extends State<CreateRoomScreen> {
                     color: Colors.blue,
                   ),
                 ],
-                text: 'Create Room',
+                text: 'Criar Sala',
                 fontSize: 70,
               ),
               SizedBox(height: size.height * 0.08),
               CustomTextField(
                 controller: _nameController,
-                hintText: 'Enter your nickname',
+                hintText: 'Digite seu nickname',
               ),
               SizedBox(height: size.height * 0.045),
               CustomButton(
                   onTap: () => _socketMethods.createRoom(
                         _nameController.text,
                       ),
-                  text: 'Create'),
+                  text: 'Criar'),
             ],
           ),
         ),

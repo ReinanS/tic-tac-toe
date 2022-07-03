@@ -20,9 +20,9 @@ class MyApp extends StatelessWidget {
       create: (context) => RoomDataProvider(),
       child: MaterialApp(
         title: 'Flutter Demo',
-        theme: ThemeData.dark().copyWith(
-          scaffoldBackgroundColor: bgColor,
-        ),
+        // theme: ThemeData.dark().copyWith(
+        //   scaffoldBackgroundColor: bgColor,
+        // ),
         routes: {
           MainMenuScreen.routeName: (context) => const MainMenuScreen(),
           JoinRoomScreen.routeName: (context) => const JoinRoomScreen(),
