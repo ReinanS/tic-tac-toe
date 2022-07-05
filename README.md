@@ -11,7 +11,7 @@ A completely Responsive Multiplayer TicTacToe Game- Works on Android, iOS, Web &
 - Cross Platform Game
 
 ## Installation
-After cloning this repository, migrate to ```jogo-da-velha``` folder.
+After cloning this repository, migrate to ```tic-tac-toe``` folder.
 
 Install dependencies (Client Side)
 ```bash
@@ -49,7 +49,5 @@ flutter run // After selecting the device you want to test on
 
 **Client**: Flutter, Provider
     
-## Feedback
 
-If you have any feedback, please reach out to me at namanrivaan@gmail.com or on Instagram at optimalcoding.
 
